@@ -1,0 +1,395 @@
+.topic-title,
+.session-title{
+  font-size:14px;
+  color: #333;
+  padding:10px 12px 0;
+  height: 30px;
+  line-height: 30px;
+  border-bottom: 2px solid #2689ef;
+}
+.topics-bd{
+  border:1px solid #f2f2f2;
+  border-top: 0px none;
+  padding: 20px;
+  overflow: hidden;
+  width: 958px;
+}
+.topic-list{
+  width: 984px;
+  overflow: hidden;
+}
+.topic-list li{
+  float: left;
+  display: inline;
+  text-align: center;
+  margin-right: 26px;
+  margin-bottom: 18px;
+  width: 220px;
+}
+.session-bd-topics{
+  padding: 20px 35px!important;
+  _width:928px!important;
+}
+.scroll-warp{
+  height: 148px;
+  width: 928px;
+  position: relative;
+}
+.scroll-warp .bd{
+  position: relative;
+  height: 148px;
+  width: 928px;
+  overflow: hidden;
+}
+.scroll-warp .topic-list li{
+  margin-right: 16px;
+  margin-bottom: 0px;
+}
+.topic-list li a{
+  display: block;
+  text-decoration: none;
+  border:1px solid #ccc;
+}
+.topic-list li a:hover{
+  border:1px solid #a1cefc;
+}
+.topic-list li span{
+  display: block;
+}
+.topic-list li .thumb{
+  padding: 9px;
+}
+.topic-list li .thumb img{
+  display: block;
+  height: 100px;
+  width: 200px;
+}
+.topic-list li .title{
+  height:28px;
+  line-height: 28px;
+  color: #2689ef;
+  overflow: hidden;
+  font-size:12px;
+  border-bottom: 0px none;
+}
+
+.topic-list li a:hover .title{
+  background-color: #2689ef;
+  color: #fff;
+}
+.scroll-warp .slider-ctrl .prev,
+.scroll-warp .slider-ctrl .next{
+  position: absolute;
+  width: 20px;
+  height: 54px;
+  top:50%;
+  margin-top: -27px;
+  background: url("../img/topic-ctrl.png") no-repeat 0 0;
+}
+.scroll-warp .slider-ctrl .prev{
+  left:-28px;
+  background-position: 0 0;
+}
+.scroll-warp .slider-ctrl .next{
+  right:-28px;
+  background-position: 0 -108px;
+}
+.scroll-warp .slider-ctrl .prev:hover{
+  background-position: 0 -54px;
+}
+.scroll-warp .slider-ctrl .next:hover{
+  background-position: 0 -164px;
+}
+
+
+
+.topic-detail-hd{
+  position: relative;
+  padding: 15px;
+  border:1px solid #f2f2f2;
+  background-color: #fafafa;
+}
+.topic-detail-hd .thumb{
+  width: 568px;
+  height: 280px;
+  background-color: #333;
+}
+.topic-detail-hd .topic-desc{
+  width: 380px;
+  height: 230px;
+  overflow: hidden;
+}
+.topic-detail-hd .topic-desc h2{
+  color: #2689ef;
+  font-size:20px;
+  height: 36px;
+  line-height: 36px;
+  border-bottom: 1px solid #f3f3f3;
+  font-weight:500;
+}
+.topic-detail-hd .topic-desc p{
+  padding-top: 10px;
+  border-top: 1px solid #fff;
+  font-size:14px;
+  color: #333;
+  line-height:2em;
+}
+.topic-detail-hd .bdsharebuttonbox{
+  position: absolute;
+  bottom: 15px;
+  left: 604px;
+}
+.session-bd{
+  border:1px solid #f2f2f2;
+  padding: 10px;
+  _width: 978px;
+  overflow: hidden;
+  position: relative;
+}
+.session-bd.comment{
+  padding: 20px 80px;
+}
+.session-bd-comment{
+  padding: 20px 80px!important;
+  width: 838px;
+}
+.card-list{
+  position: relative;
+  overflow: hidden;
+  width:990px;
+  margin-bottom:-10px;
+  *margin-bottom:0px;
+}
+
+.soft-card {
+  width: 318px;
+  background-color: #fafafa;
+  float: left;
+  display: inline;
+  margin-right: 12px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.soft-card-hd {
+  padding: 10px;
+  position: relative;
+}
+.soft-card-hd .stamp{
+  display: block;
+  background: url("../img/stamp.png") no-repeat 0 0;
+  width: 59px;
+  height:18px;
+  font-size:12px;
+  color: #fff;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+}
+.soft-card-hd h3{
+  font-size:14px;
+  height: 1em;
+  line-height: 1em;
+  overflow: hidden;
+}
+.soft-card-hd h3 a{
+  color: #2689ef;
+}
+.soft-card-hd p{
+  padding-top: 8px;
+  color: #999;
+  font-size:12px;
+  line-height: 1em;
+}
+.soft-card-bd {
+  border: 1px solid #fafafa;
+  border-top:1px solid #2689ef;
+  padding: 12px 16px;
+}
+.soft-card-bd .desc a,
+.soft-card-bd .desc img{
+  display: block;
+  width:48px;
+  height:48px;
+}
+ .soft-card-bd .desc p{
+  margin-left: 60px;
+  line-height: 1.8em;
+  color: #666;
+}
+.soft-card-bd .btn{
+  padding:8px 0 0 60px;
+}
+.soft-card-bd .btn a{
+  display: block;
+  border-radius: 4px;
+  height: 26px;
+  line-height: 26px;
+  text-align: center;
+  text-decoration: none;
+  width: 68px;
+  font-size: 12px;
+  color: #fff;
+  background-color: #ff9f15;
+}
+.soft-card-bd .btn a:hover{
+  background-color: #fbb045;
+}
+.soft-card:hover .soft-card-hd{
+  background: #2689ef;
+}
+.soft-card:hover .soft-card-hd h3 a,
+.soft-card:hover .soft-card-hd p{
+  color: #fff;
+}
+.soft-card:hover .soft-card-bd{
+  border:1px solid #a2cefd;
+}
+.link-arc{
+  overflow: hidden;
+  width: 1008px;
+}
+.link-arc li{
+  position: relative;
+  margin-left: -20px;
+  margin-right:50px;
+  float: left;
+  display: inline;
+  width: 473px;
+  border-left:1px solid #f2f2f2;
+}
+.link-arc li a{
+  display: block;
+  height: 28px;
+  line-height:28px;
+  overflow: hidden;
+  font-size:14px;
+  background: url("../img/point.png") no-repeat 30px 14px;
+  padding:0 0 0 40px;
+}
+
+.session-bd.last-tags{
+  padding:0 14px;
+  overflow: hidden;
+}
+.session-bd.last-tags .dib-warp{
+  background: url("../img/tag-bc.gif") repeat 0 0;
+  position: relative;
+  margin-bottom: -1px;
+}
+.session-bd.last-tags a{
+  font-size:14px;
+  height: 24px;
+  line-height: 24px;
+  color: #333;
+  margin: 8px 2px 8px;
+  padding:0 4px;
+}
+.session-bd.last-tags a:hover{
+  background-color: #2689ef;
+  color: #fff;
+  text-decoration: none;
+}
+
+.session-bd.hot-tags{
+  padding: 10px 0;
+  overflow: hidden;
+}
+.session-bd.hot-tags ul{
+  background: url("../img/hot-tag-bg.gif") repeat 0 0;
+  width: 995px;
+}
+.session-bd.hot-tags li{
+  float: left;
+  display: inline;
+  width: 135px;
+  height: 30px;
+  padding: 0 50px 0 14px;
+  position: relative;
+  overflow: hidden;
+}
+.session-bd.hot-tags a{
+  position:relative;
+  left:0px;
+  float:left;
+  text-decoration:none;
+  font-size:14px;
+  height: 30px;
+  line-height: 30px;
+  color: #2689ef;
+}
+.session-bd.hot-tags a:hover{
+  color: #90c7ff;
+}
+.session-bd.hot-tags .n{
+  width: 50px;
+  right: -50px;
+  position: absolute;
+  top:0;
+}
+.rank-cards{
+  position: relative;
+  margin-right: -20px;
+  overflow: hidden;
+}
+.rank-card{
+  border:1px solid #f2f2f2;
+  width: 318px;
+  float: left;
+  margin: 0 20px 10px 0;
+}
+.rank-card-hd{
+  border-bottom:1px solid #dadada;
+}
+.rank-card-hd h2{
+  border-bottom: 1px solid #2689ef;
+  position: relative;
+  margin-bottom: -1px;
+  color: #2689ef;
+  height:26px;
+  line-height:26px;
+  padding: 5px 10px 0;
+}
+.rank-card-hd .tabs{
+  width:126px;
+  _width:130px;
+  padding: 8px 6px 0 0;
+}
+.rank-card-hd .tabs .tab{
+  width: 39px;
+  margin:0 1px;
+  font-size:12px;
+  text-align: center;
+  height: 20px;
+  line-height: 20px;
+  padding-bottom: 3px;
+  cursor: pointer;
+}
+.rank-card-hd .tabs .tab.on{
+  background: url("../img/a-bg1.png") no-repeat center 0;
+  color: #fff;
+}
+.rank-card-bd .rank-list{
+  padding: 10px;
+}
+.rank-card-bd .rank-list li{
+  height: 28px;
+  line-height: 28px;
+  overflow: hidden;
+}
+.rank-card-bd .rank-list a span{
+  display: inline-block;
+  *display:inline;
+  *zoom:1;
+  width: 16px;
+  height:16px;
+  line-height:16px;
+  text-align: center;
+  font-size:12px;
+  color: #fff;
+  background: #b8b8b8;
+  margin-right: 8px;
+}
+.rank-card-bd .rank-list a span.hot{
+  background: #fe7203;
+}

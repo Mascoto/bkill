@@ -1,0 +1,121 @@
+.tag-list-main{
+  width: 728px;
+}
+.tag-hd{
+  padding:10px 20px;
+  border:1px solid #f2f2f2;
+}
+.tag-hd h2{
+  font-size:22px;
+  font-weight:500;
+  color: #333;
+  border-bottom: 1px solid #e7e7e7;
+}
+.tag-hd h2 span{
+  font-size:14px;
+  color: #999;
+  margin-left: 10px;
+}
+.tag-hd p{
+  padding-top: 10px;
+  font-size:14px;
+  color: #333;
+  line-height: 2em;
+}
+
+.tag-bd{
+  padding: 10px;
+  border:1px solid #f2f2f2;
+  overflow: hidden;
+  width: 706px;
+}
+.card-list{
+  overflow: hidden;
+  width: 714px;
+}
+.soft-card {
+  width: 230px;
+  background-color: #fafafa;
+  float: left;
+  display: inline;
+  margin-right: 8px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.soft-card-hd {
+  padding: 10px;
+  position: relative;
+}
+.soft-card-hd .stamp{
+  display: block;
+  background: url("../img/stamp.png") no-repeat 0 0;
+  width: 59px;
+  height:18px;
+  font-size:12px;
+  color: #fff;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+}
+.soft-card-hd h3{
+  font-size:14px;
+  line-height:1em;
+  height:1em;
+  overflow:hidden;
+}
+.soft-card-hd h3 a{
+  color: #2689ef;
+}
+.soft-card-hd p{
+  padding-top: 8px;
+  color: #999;
+  font-size:12px;
+  line-height: 1em;
+}
+.soft-card-bd {
+  border: 1px solid #fafafa;
+  border-top:1px solid #2689ef;
+  padding: 12px 16px;
+}
+.soft-card-bd .desc a,
+.soft-card-bd .desc img{
+  display: block;
+  width:48px;
+  height:48px;
+}
+.soft-card-bd .desc p{
+  margin-left: 60px;
+  line-height: 1.8em;
+  color: #666;
+  height:65px;
+  overflow:hidden;
+}
+.soft-card-bd .btn{
+  padding:8px 0 0 60px;
+}
+.soft-card-bd .btn a{
+  display: block;
+  border-radius: 4px;
+  height: 26px;
+  line-height: 26px;
+  text-align: center;
+  text-decoration: none;
+  width: 68px;
+  font-size: 12px;
+  color: #fff;
+  background-color: #ff9f15;
+}
+.soft-card-bd .btn a:hover{
+  background-color: #fbb045;
+}
+.soft-card:hover .soft-card-hd{
+  background: #2689ef;
+}
+.soft-card:hover .soft-card-hd h3 a,
+.soft-card:hover .soft-card-hd p{
+  color: #fff;
+}
+.soft-card:hover .soft-card-bd{
+  border:1px solid #a2cefd;
+}
